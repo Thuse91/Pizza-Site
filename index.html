@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jimmys Page</title>
+    <link rel="stylesheet" href="style.css"></style>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+    <wrap>
+        <div class="header">
+            <div id="title">
+                <p id="logo" onclick="Home();">Pizzeria Prima</p>
+            </div>
+            <div id="btn-wrap">
+                <div class="header-button" onclick="Pizzor();">Pizzor</div>
+                <div class="header-button" onclick="Kebab();">Kebab</div>
+                <div class="header-button" onclick="Sallad();">Sallad</div>
+                <div class="header-button" onclick="Misc();">Övrigt</div>
+            </div>
+            <div class="empty">
+                tele : 042-77777 &nbsp;&nbsp;&nbsp;&nbsp; Alla dagar 11-23
+            </div>
+        </div>
+        <div id="homecontent">
+            <p id="homeheadliner">Välkommen till Pizzerian med Sveriges Godaste pizza!</p>
+            <p>Dricka ingår till alla mål vid lunch mellan 11.00-14.00</p>
+        </div>
+
+        <div id="review">
+            <p>Finns ingen annan pizzeria jag hellre går till! - Hanna S</p>
+            <p>Konkurrensen har ingen chans haha. - Jakob A</p>
+            <p>Varför gå till en annan pizzeria när vi har er? - Ahmed M</p>
+            <p>Kommer hit varje helg så långt jag kan minnas. - Markus M</p>
+            <p>Bästa Kebaben jag någonsin ätigt. - Sara K</p>
+        </div>
+
+        <div id="contentwrap">
+            <div id="pizzacontent">
+            <p id="pizza-title">Pizza</p>
+            <p class="pizza-sub-title">Skinka</p>
+            <div class="twobox">
+                <div id="pizza-left" class="boxes">
+                    <p class="menu-text">VESUVIO</p>
+                    <p class="menu-ingr">Skinka<span class="pris">90kr</span></p>
+                    <p class="menu-text">CAPRICCIOSA</p>
+                    <p class="menu-ingr">Skinka, Champinjoner <span class="pris">90kr</span></p></p>
+                    <p class="menu-text">CALZONE </p>
+                    <p class="menu-ingr">Skinka (inbakad) <span class="pris">90kr</span></p></p>
+                    <p class="menu-text">HAWAII</p>
+                    <p class="menu-ingr">Skinka, Ananas <span class="pris">90kr</span></p></p>
+                    <p class="menu-text">TOMASO</p>
+                    <p class="menu-ingr">Skinka, Räkor <span class="pris">90kr</span></p></p>
+                    <p class="menu-text">TOSCANA</p>
+                    <p class="menu-ingr">skinka, ananas, champinjoner <span class="pris">95kr</span></p></p>
+                    <p class="menu-text">LAMARE</p>
+                    <p class="menu-ingr">skinka, bacon, ägg<span class="pris">95kr</span></p></p>
+                    <p class="menu-text">CALZONE SPECIAL</p>
+                    <p class="menu-ingr">skinka, räkor, champinjoner (inbakad) <span class="pris">95kr</span></p></p>
+                </div>
+                <div id="pizza-right" class="boxes">
+                    <p class="menu-text">BANANPIZZA</p>
+                    <p class="menu-ingr">Skinka, Banan, Curry <span class="pris">90kr</span></p></p>
+                    <p class="menu-text">CARUSO</p>
+                    <p class="menu-ingr">Skinka, Räkor, Champinjoner <span class="pris">90kr</span></p></p>
+                    <p class="menu-text">NAPOLI</p>
+                    <p class="menu-ingr">Skinka, Ananas, Räkor <span class="pris">90kr</span></p></p>
+                    <p class="menu-text">FANTASI</p>
+                    <p class="menu-ingr">skinka, ananas, banan, curry <span class="pris">90kr</span></p></p>
+                    <p class="menu-text">ROYAL</p>
+                    <p class="menu-ingr">skinka, lök, bacon <span class="pris">90kr</span></p></p>
+                    <p class="menu-text">PORTOFINO</p>
+                    <p class="menu-ingr">skinka, lök, räkor (inbakad) <span class="pris">90kr</span></p></p>
+                    <p class="menu-text">QUATTRO STAGIONI</p>
+                    <p class="menu-ingr">skinka, champinjoner, räkor, musslor, kronärtskocka <span class="pris">95kr</span></p></p>
+                    <p class="menu-text">KADIR SPECIAL</p>
+                    <p class="menu-ingr">skinka, gorgonzola <span class="pris">90kr</span></p></p>
+                </div>
+            </div>
+            <hr>
+            <p class="pizza-sub-title">Kebab</p>
+            <div class="twobox"> 
+                <div id="pizza-left" class="boxes">
+                    <p class="menu-text">KEBABPIZZA 1</p>
+                    <p class="menu-ingr">kebab, lök, champinjoner, valfri sås<span class="pris">100kr</span></p></p>
+                    <p class="menu-text">KEBABPIZZA 2</p>
+                    <p class="menu-ingr">kebab, lök, champinjoner, skinka, paprika, valfri sås<span class="pris">100kr</span></p></p>
+                    <p class="menu-text">VIKINGBÅT</p>
+                    <p class="menu-ingr">kebab, lök, paprika, gorgonzola, valfri sås (halvinbakad) <span class="pris">100kr</span></p></p>
+                    <p class="menu-text">KEBABPIZZA SPECIAL</p>
+                    <p class="menu-ingr">kebab, färska grönsaker, valfri sås<span class="pris">100kr</span></p></p>
+                    <p class="menu-text">BJUV SPECIAL</p>
+                    <p class="menu-ingr">kebab, lök, tomater, paprika, fårost, valfri sås <span class="pris">100kr</span></p></p>
+                    <p class="menu-text">MILLENIUM</p>
+                    <p class="menu-ingr">kebab, kyckling, paprika, jalapeno, tacosås, valfri sås <span class="pris">100kr</span></p></p>
+                </div>
+                <div id="pizza-right" class="boxes">
+                    <p class="menu-text">DARIN SPECIAL</p>
+                    <p class="menu-ingr">skinka, lök, räkor, kebab, valfri sås <span class="pris">100kr</span></p></p>
+                    <p class="menu-text">NOBEL</p>
+                    <p class="menu-ingr">kebab, lök, tomater, feferoni, valfri sås <span class="pris">100kr</span></p></p>
+                    <p class="menu-text">50/50</p>
+                    <p class="menu-ingr">kebab, sallad, valfri sås / kyckling, sallad, valfri sås <span class="pris">100kr</span></p></p>
+                    <p class="menu-text">CALZONE MED KEBAB</p>
+                    <p class="menu-ingr">kebab, färska grönsaker, valfri sås (inb.) <span class="pris">100kr</span></p></p>
+                    <p class="menu-text">ROMA</p>
+                    <p class="menu-ingr">kebabkött, lök, champinjoner, räkor, kyckling, valfri sås <span class="pris">100kr</span></p></p>
+                    <p class="menu-text">KEBAB</p>
+                    <p class="menu-ingr">kebab, lök, feferoni, färsk tomat, kebabsås <span class="pris">100kr</span></p></p>
+                </div>
+            </div>
+            <hr>
+            <p class="pizza-sub-title">Kyckling</p>
+            <div class="twobox">
+                <div id="pizza-left" class="boxes">
+                    <p class="menu-text">SMACK</p>
+                    <p class="menu-ingr">kyckling, lök, curry <span class="pris">90kr</span></p></p>
+                    <p class="menu-text">LA GONDOLA</p>
+                    <p class="menu-ingr">kyckling, ananas, banan, curry, jordnötter, bearnaisesås <span class="pris">100kr</span></p></p>
+                    <p class="menu-text">MONTE CARLO</p>
+                    <p class="menu-ingr">kyckling, skinka, ananas, jordnötter, curry, bearnaisesås <span class="pris">100kr</span></p></p>
+                    <p class="menu-text">VINSTA</p>
+                    <p class="menu-ingr">kyckling, färsk paprika, vitlöksost, färska tomater <span class="pris">100kr</span></p></p>
+                    <p class="menu-text">KYCKLINGPIZZA</p>
+                    <p class="menu-ingr">kyckling, champinjoner, lök, färsk paprika, valfri sås <span class="pris">100kr</span></p></p>
+                    <p class="menu-text">ALASKA</p>
+                    <p class="menu-ingr">kyckling, ananas, banan, curry <span class="pris">95kr</span></p></p>
+                    <p class="menu-text">LOUISIANA</p>
+                    <p class="menu-ingr">kyckling, färska champinjoner, paprika, jalapeno, chipotlesås <span class="pris">100kr</span></p></p>
+                </div>
+                <div id="pizza-right" class="boxes">
+                    <p class="menu-text">ROMA</p>
+                    <p class="menu-ingr">kebabkött, lök, champinjoner, räkor, kyckling, valfri sås <span class="pris">100kr</span></p></p>
+                    <p class="menu-text">KYCKLING SPECIAL</p>
+                    <p class="menu-ingr">kyckling, lök, räkor, paprika, curry, valfri sås <span class="pris">100kr</span></p></p>
+                    <p class="menu-text">CRAZY CHICKEN</p>
+                    <p class="menu-ingr">kyckling, färska grönsaker, valfri sås<span class="pris">100kr</span></p></p>
+                    <p class="menu-text">MILLENIUM</p>
+                    <p class="menu-ingr">kebab, kyckling, paprika, jalapeno, tacosås, valfri sås <span class="pris">100kr</span></p></p>
+                    <p class="menu-text">ROLLO INDIANA</p>
+                    <p class="menu-ingr">kyckling, champinjoner, räkor, valfri sås <span class="pris">100kr</span></p></p>
+                    <p class="menu-text">ROLLO POMPEI</p>
+                    <p class="menu-ingr">bacon, lök, kyckling, rosmarin, ädelost <span class="pris">100kr</span></p></p>
+                </div>
+                </div>
+                <hr>
+            <p class="pizza-sub-title">Färs</p>
+            <div class="twobox">
+                <div id="pizza-left" class="boxes">
+                    <p class="menu-text">BOLOGNESE</p>
+                    <p class="menu-ingr">köttfärs <span class="pris">90kr</span></p></p>
+                    <p class="menu-text">MILANO</p>
+                    <p class="menu-ingr">köttfärs, paprika <span class="pris">90kr</span></p></p>
+                    <p class="menu-text">SKÅNE</p>
+                    <p class="menu-ingr">köttfärs, lök <span class="pris">90kr</span></p></p>
+                    <p class="menu-text">BAMO</p>
+                    <p class="menu-ingr">köttfärs, bacon, salami, lök, starka kryddor <span class="pris">95kr</span></p></p>
+                    <p class="menu-text">AMIGO</p>
+                    <p class="menu-ingr">skinka, köttfärs, bacon, salami <span class="pris">95kr</span></p></p>
+                    <p class="menu-text">TROPICAL</p>
+                    <p class="menu-ingr">köttfärs, tacosås, ananas, feferoni <span class="pris">95kr</span></p></p>
+                    <p class="menu-text">RED DEVIL</p>
+                    <p class="menu-ingr">köttfärs, champinjoner, räkor, feferoni <span class="pris">95kr</span></p></p>
+                </div>
+                <div id="pizza-right" class="boxes">
+                    <p class="menu-text">LAMBADA</p>
+                    <p class="menu-ingr">skinka, fläskfilé, köttfärs, bacon, bearnaisesås <span class="pris">95kr</span></p></p>
+                    <p class="menu-text">KANOT</p>
+                    <p class="menu-ingr">champinjoner, lök, tomat, köttfärs, vitlök, bearnaisesås (halvinbakad) <span class="pris">100kr</span></p></p>
+                    <p class="menu-text">MEXICANA</p>
+                    <p class="menu-ingr">köttfärs, lök, paprika, salami, jalapeno, tacosås, tacokrydda <span class="pris">95kr</span></p></p>
+                    <p class="menu-text">TACOPIZZA</p>
+                    <p class="menu-ingr">köttfärs, majs, paprika, jalapeno, tacosås <span class="pris">95kr</span></p></p>
+                    <p class="menu-text">ROLLO AMORE</p>
+                    <p class="menu-ingr">oxfilé, bacon, köttfärs, bearnaisesås, färsk vitlök <span class="pris">95kr</span></p></p>
+                    <p class="menu-text">LAS VEGAS</p>
+                    <p class="menu-ingr">skinka, salami, köttfärs, champinjoner, ananas, färska tomater <span class="pris">100kr</span></p></p>
+                </div>
+                </div>
+                <hr>
+            <p class="pizza-sub-title">Fläsk/oxfile</p>
+            <div class="twobox">
+                <div id="pizza-left" class="boxes">
+                    <p class="menu-text">SWEDEN</p>
+                    <p class="menu-ingr">oxfilé, fläskfilé, bearnaisesås <span class="pris">110kr</span></p></p>
+                    <p class="menu-text">MADONNA</p>
+                    <p class="menu-ingr">oxfilé, lök, champinjoner, paprika, jalapeno, färsk vitlök, bearnaisesås <span class="pris">110kr</span></p></p>
+                    <p class="menu-text">HIF SPECIAL</p>
+                    <p class="menu-ingr">oxfilé, lök, tomater, skinka, bearnaisesås<span class="pris">110kr</span></p></p>
+                    <p class="menu-text">BAGARENS SPECIAL</p>
+                    <p class="menu-ingr">oxfilé, champinjoner, sparris, bearnaisesås <span class="pris">110kr</span></p></p>
+                    <p class="menu-text">PROVENCALE</p>
+                    <p class="menu-ingr">oxfilé, champinjoner, paprika, bacon, bearnaisesås <span class="pris">110kr</span></p></p>
+                    <p class="menu-text">GONZALES</p>
+                    <p class="menu-ingr">oxfilé, lök, salami, jalapeno, tacosås, chipotlesås <span class="pris">110kr</span></p></p>
+                    <p class="menu-text">ACAPULCO</p>
+                    <p class="menu-ingr">oxfilé, champinjoner, lök, jalapeno, tacosås, färsk vitlök <span class="pris">110kr</span></p></p>
+                    <p class="menu-text">ROLLO CAPO</p>
+                    <p class="menu-ingr">oxfilé, champinjoner, lök, bearnaisesås <span class="pris">110kr</span></p></p>
+                    <p class="menu-text">ROLLO AMORE</p>
+                    <p class="menu-ingr">oxfilé, bacon, köttfärs, bearnaisesås, färsk vitlök <span class="pris">110kr</span></p></p>
+                </div>
+                <div id="pizza-right" class="boxes">
+                    <p class="menu-text">GORGONZOLA</p>
+                    <p class="menu-ingr">oxfilé, lök, gorgonzola, tomater, paprika, champinjoner <span class="pris">110kr</span></p></p>
+                    <p class="menu-text">BAHAMAS</p>
+                    <p class="menu-ingr">oxfilé, ananas, banan, curry, bearnaisesås <span class="pris">110kr</span></p></p>
+                    <p class="menu-text">ARAS SPECIAL</p>
+                    <p class="menu-ingr">skinka, svamp, lök, oxfilé, kebab i mitten, valfri sås <span class="pris">110kr</span></p></p>
+                    <p class="menu-text">OLYMPIA SPECIAL</p>
+                    <p class="menu-ingr">mozzarella, fårost, sparris, oxfilé, bearnaisesås <span class="pris">110kr</span></p></p>
+                    <p class="menu-text">CARLOS</p>
+                    <p class="menu-ingr">oxfilé, bacon, lök, paprika, jalapeno, tacosås, chipotlesås (halvinbakad) <span class="pris">110kr</span></p></p>
+                    <p class="menu-text">DALLAS</p>
+                    <p class="menu-ingr">oxfilé, skinka, färska champinjoner, färska tomater, bearnaisesås (halvinbakad) <span class="pris">110kr</span></p></p>
+                    <p class="menu-text">NEW YORK</p>
+                    <p class="menu-ingr">oxfilé, pepperoni, lök, paprika, färska tomater, jalapeno, tacomix, tacosås <span class="pris">110kr</span></p></p>
+                    <p class="menu-text">TEXAS</p>
+                    <p class="menu-ingr">oxfilé, salami, gorgonzola, champinjoner, färska tomater, lök <span class="pris">110kr</span></p></p>
+                    <p class="menu-text">CALIFORNIA</p>
+                    <p class="menu-ingr">oxfilé, champinjoner, paprika, tomat, bearnaisesås <span class="pris">110kr</span></p></p>
+                </div>
+                </div>
+                <hr>
+            <p class="pizza-sub-title">Fisk/Skaldjur</p>
+            <div class="twobox">
+                <div id="pizza-left" class="boxes">
+                    <p class="menu-text">MARINARA</p>
+                    <p class="menu-ingr">räkor, musslor <span class="pris">90kr</span></p></p>
+                    <p class="menu-text">QUATTRO STAGIONI</p>
+                    <p class="menu-ingr">skinka, champinjoner, räkor, musslor, kronärtskocka <span class="pris">105kr</span></p></p>
+                    <p class="menu-text">SJÖMAN</p>
+                    <p class="menu-ingr">räkor, musslor, crabsticks, tonfisk <span class="pris">105kr</span></p></p>
+                    <p class="menu-text">AL TONNO</p>
+                    <p class="menu-ingr">tonfisk <span class="pris">90kr</span></p></p>
+                    <p class="menu-text">PESCATORE</p>
+                    <p class="menu-ingr">tonfisk, lök <span class="pris">90kr</span></p></p>
+                    <p class="menu-text">RIO GRANDE</p>
+                    <p class="menu-ingr">skinka, champinjoner, lök, räkor, paprika (med gratinerad ost överst) <span class="pris">100kr</span></p></p>
+                    <p class="menu-text">FIRO</p>
+                    <p class="menu-ingr">champinjoner, räkor, fläskfilé, bearnaisesås <span class="pris">100kr</span></p></p>
+                    <p class="menu-text">ROLLO RUSTIG</p>
+                    <p class="menu-ingr">fläskfilé, räkor, lök, bearnaisesås <span class="pris">110kr</span></p></p>
+                    <p class="menu-text">HONOLULU</p>
+                    <p class="menu-ingr">skinka, räkor, ananas, banan, curry <span class="pris">100kr</span></p></p>
+                </div>
+                <div id="pizza-right" class="boxes">
+                    <p class="menu-text">INFERNO</p>
+                    <p class="menu-ingr">tonfisk, jalapeno, tacosås, tacokryddmix, valfri sås <span class="pris">100kr</span></p></p>
+                    <p class="menu-text">TOMASO</p>
+                    <p class="menu-ingr">skinka, räkor <span class="pris">100kr</span></p></p>
+                    <p class="menu-text">PORTOFINO</p>
+                    <p class="menu-ingr">skinka, lök, räkor (inbakad) <span class="pris">100kr</span></p></p>
+                    <p class="menu-text">NAPOLI</p>
+                    <p class="menu-ingr">skinka, ananas, räkor <span class="pris">95kr</span></p></p>
+                    <p class="menu-text">CALZONE SPECIAL</p>
+                    <p class="menu-ingr">skinka, räkor, champinjoner (inbakad) <span class="pris">100kr</span></p></p>
+                    <p class="menu-text">DARIN SPECIAL</p>
+                    <p class="menu-ingr">skinka, lök, räkor, kebab, valfri sås <span class="pris">100kr</span></p></p>
+                    <p class="menu-text">ROMA</p>
+                    <p class="menu-ingr">kebabkött, lök, champinjoner, räkor, kyckling, valfri sås <span class="pris">100kr</span></p></p>
+                    <p class="menu-text">TEFAT</p>
+                    <p class="menu-ingr">skinka, champinjoner, räkor (pizza med lock) <span class="pris">100kr</span></p></p>
+                    <p class="menu-text">ROLLO INDIANA</p>
+                    <p class="menu-ingr">kyckling, champinjoner, räkor, valfri sås <span class="pris">100kr</span></p></p>
+                </div>
+                </div>
+                <hr>
+            <p class="pizza-sub-title">Vego</p>
+            <div class="twobox">
+                <div id="pizza-left" class="boxes">
+                    <p class="menu-text">MARGARITA</p>
+                    <p class="menu-ingr">tomat, ost <span class="pris">80kr</span></p></p>
+                    <p class="menu-text">AL FUNGHI</p>
+                    <p class="menu-ingr">champinjoner <span class="pris">80kr</span></p></p>
+                    <p class="menu-text">FORMAGGI</p>
+                    <p class="menu-ingr">mozzarella, gorgonzola, fårost, ruccola <span class="pris">95kr</span></p></p>
+                </div>
+                <div id="pizza-right" class="boxes">
+                    <p class="menu-text">BAMSE</p>
+                    <p class="menu-ingr">ananas <span class="pris">80kr</span></p></p>
+                    <p class="menu-text">PLUTO</p>
+                    <p class="menu-ingr">champinjoner <span class="pris">80kr</span></p></p>
+                    <p class="menu-text">FORMAGGI</p>
+                    <p class="menu-ingr">mozzarella, gorgonzola, fårost, ruccola <span class="pris">95kr</span></p></p>
+                </div>
+                </div>
+            </div>
+        <div id="kebabcontent">   
+            <p id="kebab-title">Kebab</p>
+            <p class="kebab-sub-title">I alla kebabrätter (utom pommesrulle) ingår sallad, lök, tomat, gurka och valfri sås</p>    
+            <div class="twobox">
+                <div id="kebab-left" class="boxes">
+                    <p class="menu-text">KEBAB I PITABRÖD</p>
+                    <p class="menu-ingr">kebab, feferoni <span class="pris">85kr</span></p></p>
+                    <p class="menu-text">KEBAB I PITABRÖD SPECIAL</p>
+                    <p class="menu-ingr">kebab, ost, champinjoner, feferoni <span class="pris">90kr</span></p></p>
+                    <p class="menu-text">KEBABRULLE</p>
+                    <p class="menu-ingr">kebab <span class="pris">90kr</span></p></p>
+                    <p class="menu-text">KEBABRULLE SPECIAL</p>
+                    <p class="menu-ingr">kebab, ost, champinjoner <span class="pris">100kr</span></p></p>
+                    <p class="menu-text">KEBABTALLRIK</p>
+                    <p class="menu-ingr">kebab, pommes, feferoni<span class="pris">90kr</span></p></p>
+                    <p class="menu-text">KEBABTALLRIK SPECIAL</p>
+                    <p class="menu-ingr">kebab, ost, champinjoner, feferoni<span class="pris">100kr</span></p></p>
+                    <p class="menu-text">GREKISK KEBABTALLRIK</p>
+                    <p class="menu-ingr">kebab, pommes, feferoni, lökringar, fårost<span class="pris">100kr</span></p></p>
+                    <p class="menu-text">POMMESRULLE                    </p>
+                    <p class="menu-ingr">kebab, pommes<span class="pris">95kr</span></p></p>
+                    <p class="menu-text">RÄKRULLE                   </p>
+                    <p class="menu-ingr">räkor<span class="pris">95kr</span></p></p>
+                    <p class="menu-text">FALAFEL I PITABRÖD</p>
+                    <p class="menu-ingr">falafel, feferoni<span class="pris">75kr</span></p></p>
+
+                </div>
+                <div id="kebab-right" class="boxes">
+                    <p class="menu-text">FAMILJE-KEBAB-LÅDA</p>
+                    <p class="menu-ingr">kebab, pommes, feferoni <span class="pris">240kr</span></p></p>
+                    <p class="menu-text">MEXIKANSK TALLRIK</p>
+                    <p class="menu-ingr">kebab, bacon, jalapeno, tacosås, feferoni<span class="pris">100kr</span></p></p>
+                    <p class="menu-text">MEXIKANSK RULLE</p>
+                    <p class="menu-ingr">kebab, bacon, jalapeno, tacosås<span class="pris">100kr</span></p></p>
+                    <p class="menu-text">MEXIKANSK KEBAB I PITABRÖD</p>
+                    <p class="menu-ingr">kebab, bacon, jalapeno, tacosås, feferoni<span class="pris">100kr</span></p></p>
+                    <p class="menu-text">MIXRULLE</p>
+                    <p class="menu-ingr">kyckling, kebab, nötkebab<span class="pris">85kr</span></p></p>
+                    <p class="menu-text">MIXTALLRIK</p>
+                    <p class="menu-ingr">kyckling, kebab, skinka, feferoni<span class="pris">100kr</span></p></p>
+                    <p class="menu-text">BLANDRULLE SPECIAL</p>
+                    <p class="menu-ingr">kebab, skinka, kyckling, räkor<span class="pris">100kr</span></p></p>
+                    <p class="menu-text">LABINOT SPECIALRULLE</p>
+                    <p class="menu-ingr">kebab, pommes, fårost, valfri sås<span class="pris">95kr</span></p></p>
+                    <p class="menu-text">FALAFELTALLRIK</p>
+                    <p class="menu-ingr">falafel, pommes, feferoni<span class="pris">85kr</span></p></p>
+                    <p class="menu-text">FALAFELRULLE</p>
+                    <p class="menu-ingr">falafel<span class="pris">85kr</span></p></p>
+                </div>
+            </div>
+        </div>
+        <div id="salladcontent">
+        <p id="sallad-title">Sallad</p>
+        <p class="sallad-sub-title">Till alla sallader ingår isbergssallad, tomat, gurka och valfri sås</p>    
+            <div class="twobox">
+                <div id="sallad-left" class="boxes">
+                    <p class="menu-text">KEBABSALLAD</p>
+                    <p class="menu-ingr">kebabkött, lök, ananas, majs<span class="pris">90kr</span></p></p>
+                    <p class="menu-text">FALAFELSALLAD</p>
+                    <p class="menu-ingr">FALAFELSALLAD<span class="pris">90kr</span></p></p>
+                    <p class="menu-text">VEGETARISK SALLAD</p>
+                    <p class="menu-ingr">oliver, champinjoner, ruccola, ananas, majs, sparris<span class="pris">90kr</span></p></p>
+                    <p class="menu-text">TONFISKSALLAD</p>
+                    <p class="menu-ingr">tonfisk, lök, majs, citron <span class="pris">90kr</span></p></p>
+                    <p class="menu-text">SKINKSALLAD</p>
+                    <p class="menu-ingr">skinka, lök, ananas, majs, ost<span class="pris">90kr</span></p></p>
+                    <p class="menu-text">KYCKLINGSALLAD</p>
+                    <p class="menu-ingr">kyckling, lök, ananas, majs <span class="pris">90kr</span></p></p>
+                </div>
+                <div id="sallad-right" class="boxes">
+                    <p class="menu-text">RÄKSALLAD</p>
+                    <p class="menu-ingr">räkor, ägg, lök, ananas, majs, citron<span class="pris">240kr</span></p></p>
+                    <p class="menu-text">GREKISK SALLAD</p>
+                    <p class="menu-ingr">fårost, oliver, lök, ananas, majs, färsk paprika<span class="pris">240kr</span></p></p>
+                    <p class="menu-text">GOTT & BLANDAT</p>
+                    <p class="menu-ingr">kebabkött, kyckling, skinka, ananas, majs, lök<span class="pris">240kr</span></p></p>
+                    <p class="menu-text">AVOCADOSALLAD</p>
+                    <p class="menu-ingr">ost, skinka, räkor, ägg, avocado, citron <span class="pris">240kr</span></p></p>
+                    <p class="menu-text">JUVENTUS</p>
+                    <p class="menu-ingr">ruccola, parmaskinka, ost, soltorkade tomater, lök, oliver <span class="pris">240kr</span></p></p>
+                </div>
+            </div>
+        </div>
+        <div id="misccontent">
+        <p id="misc-title">Övrigt</p>
+        <p class="misc-sub-title">Hamburgare</p>    
+        <p class="misc-sub-title">DRESSING: vitlök, mild, stark, curry, Rhode island, tzatziki</p>    
+        <p class="misc-sub-title">EXTRA FYLLNING: Kött 20:-, Övrigt: 10:- Med mozzarella 15:- extra</p>    
+        <p class="misc-sub-title">I alla Hamburgare ingår bröd, ost, isbergssallad, ketchup, gurka, Hamburgarbiff</p>    
+            <div class="twobox">
+                <div id="misc-left" class="boxes">
+                    <p class="menu-text">HAMBURGERTALLRIK 90 GR</p>
+                    <p class="menu-ingr">Standard Hamburgartallrik<span class="pris">80kr</span></p></p>         
+                    <p class="menu-text">HAMBURGERTALLRIK 150 GR</p>
+                    <p class="menu-ingr">Standard Hamburgartallrik<span class="pris">85kr</span></p></p>         
+                    <p class="menu-text">TEXMEXBURGARE 90 GR</p>
+                    <p class="menu-ingr">bacon, jalapeno, tacosås<span class="pris">90kr</span></p></p>         
+                    <p class="menu-text">TEXMEXBURGARE 150 GR</p>
+                    <p class="menu-ingr">bacon, jalapeno, tacosås<span class="pris">95kr</span></p></p>         
+                    <p class="menu-text">OST & BACONBURGARE 90 GR</p>
+                    <p class="menu-ingr">bacon, ost<span class="pris">90kr</span></p></p>         
+                    <p class="menu-text">OST & BACONBURGARE 150 GR</p>
+                    <p class="menu-ingr">bacon, ost<span class="pris">95kr</span></p></p>         
+                    <p class="menu-text">ÄGGBURGARE 90 GR</p>
+                    <p class="menu-ingr">ägg<span class="pris">85kr</span></p></p>         
+                </div>
+                <div id="misc-right" class="boxes">
+                    <p class="menu-text">ÄGGBURGARE 150 GR</p>
+                    <p class="menu-ingr">ägg<span class="pris">95kr</span></p></p>
+                    <p class="menu-text">HOTBURGARE 200 GR</p>
+                    <p class="menu-ingr">hamburgerdressing, bacon, cheddarost, jalapeno, lök, sallad<span class="pris">99kr</span></p></p>
+                    <p class="menu-text">ORIGINALBURGARE 200 GR</p>
+                    <p class="menu-ingr">hamburgerdressing, bacon, cheddarost, lök, sallad<span class="pris">99kr</span></p></p>
+                    <p class="menu-text">HAWAIIBURGARE 200 GR</p>
+                    <p class="menu-ingr">hamburgerdressing, cheddarost, stekt ananas, sallad<span class="pris">99kr</span></p></p>
+                    <p class="menu-text">GREKISK BURGARE 200 GR</p>
+                    <p class="menu-ingr">hamburgerdressing, fårost, lök, ruccola, sallad, tomat, gurka<span class="pris">99kr</span></p></p>
+                    <p class="menu-text">GORGONZOLABURGARE 200 GR</p>
+                    <p class="menu-ingr">hamburgerdressing, gorgonzola, lök, sallad, tomat<span class="pris">99kr</span></p></p>
+                </div>
+            </div>
+            <hr>
+        <p class="misc-sub-title">Kycklingmeny</p>    
+        <p class="misc-sub-title">I alla kycklingrätter ingår sallad, lök, tomat, gurka och valfri sås</p>    
+            <div class="twobox">
+                <div id="misc-left" class="boxes">
+                    <p class="menu-text">KYCKLING I PITABRÖD</p>
+                    <p class="menu-ingr">kyckling, feferoni<span class="pris">85kr</span></p></p>         
+                    <p class="menu-text">KYCKLING I PITABRÖD SPECIAL</p>
+                    <p class="menu-ingr">kyckling, ost, champinjoner, feferoni<span class="pris">90kr</span></p></p>         
+                    <p class="menu-text">KYCKLINGRULLE</p>
+                    <p class="menu-ingr">kyckling<span class="pris">95kr</span></p></p>         
+                    <p class="menu-text">KYCKLINGRULLE SPECIAL</p>
+                    <p class="menu-ingr">kyckling, ost, champinjoner<span class="pris">100kr</span></p></p>         
+                    <p class="menu-text">KYCKLINGTALLRIK</p>
+                    <p class="menu-ingr">kyckling, pommes, feferoni<span class="pris">95kr</span></p></p>              
+                </div>
+                <div id="misc-right" class="boxes">
+                    <p class="menu-text">KYCKLINGTALLRIK SPECIAL</p>
+                    <p class="menu-ingr">kyckling, ost, champinjoner, feferoni<span class="pris">100kr</span></p></p>
+                    <p class="menu-text">GREKISK KYCKLINGTALLRIK</p>
+                    <p class="menu-ingr">kyckling, pommes, feferoni, lökringar, fårost<span class="pris">100kr</span></p></p>
+                    <p class="menu-text">FAMILJE-KYCKLING-LÅDA</p>
+                    <p class="menu-ingr">kyckling, pommes, feferoni<span class="pris">240kr</span></p></p>
+                    <p class="menu-text">CHICKEN NUGGETS</p>
+                    <p class="menu-ingr">pommes, sallad, valfri sås<span class="pris">85kr</span></p></p>
+                </div>
+            </div>
+            <hr>
+        <p class="misc-sub-title">A la carte</p>    
+        <p class="misc-sub-title">Alla rätter serveras med pommes</p>    
+            <div class="twobox">
+                <div id="misc-left" class="boxes">
+                    <p class="menu-text">FLÄSKFILÉ</p>
+                    <p class="menu-ingr">sallad, fläskfilé, sparris, bacon, bearnaisesås<span class="pris">125kr</span></p></p>         
+                    <p class="menu-text">LÖVBIFF</p>
+                    <p class="menu-ingr">persiljesmör, bearnaisesås, sallad<span class="pris">110kr</span></p></p>         
+                    <p class="menu-text">HEMLAGAD SCHNITZEL</p>
+                    <p class="menu-ingr">persiljesmör eller bearnaisesås, sallad, citron<span class="pris">120kr</span></p></p>                     
+                </div>
+                <div id="misc-right" class="boxes">
+                    <p class="menu-text">RÖDSPÄTTA</p>
+                    <p class="menu-ingr">remouladesås, sallad, citron<span class="pris">950kr</span></p></p>
+                    <p class="menu-text">GRILLSPETT</p>
+                    <p class="menu-ingr">med tzatzikisås eller bearnaise sås<span class="pris">110kr</span></p></p>
+                </div>
+            </div>
+            <hr>
+        <p class="misc-sub-title">Langos</p>    
+        <p class="misc-sub-title">I alla langos ingår sallad, lök, tomat, gurka och valfri sås</p>    
+            <div class="twobox">
+                <div id="misc-left" class="boxes">
+                    <p class="menu-text">KEBABLANGOS</p>
+                    <p class="menu-ingr">kebab, ost<span class="pris">99kr</span></p></p>         
+                    <p class="menu-text">KYCKLINGLANGOS</p>
+                    <p class="menu-ingr">kyckling, ost<span class="pris">99kr</span></p></p>         
+                    <p class="menu-text">RÄKLANGOS</p>
+                    <p class="menu-ingr">räkor, ost<span class="pris">99kr</span></p></p>                     
+                    <p class="menu-text">SKINKLANGOS</p>
+                    <p class="menu-ingr">skinka, ost<span class="pris">99kr</span></p></p>                     
+                </div>
+                <div id="misc-right" class="boxes">
+                    <p class="menu-text">TONFISKLANGOS</p>
+                    <p class="menu-ingr">tonfisk, ost<span class="pris">99kr</span></p></p>
+                    <p class="menu-text">VEGETARISK LANGOS</p>
+                    <p class="menu-ingr">ost, oliver, ananas<span class="pris">99kr</span></p></p>
+                    <p class="menu-text">HAWAIILANGOS</p>
+                    <p class="menu-ingr">skinka, ananas<span class="pris">99kr</span></p></p>
+                    <p class="menu-text">CEASARLANGOS</p>
+                    <p class="menu-ingr">kyckling, stekt bacon, majs<span class="pris">99kr</span></p></p>
+                </div>
+            </div>
+        </div>
+        </div>
+        <footer>
+
+
+        </footer>
+    </wrap>
+<script src="script.js"></script>
+</body>
+</html>
